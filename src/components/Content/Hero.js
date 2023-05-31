@@ -18,7 +18,7 @@ export default function Hero() {
 
                     <h3 className="font-Rubik text-2xl text-white mt-3">
                         <FontAwesomeIcon icon={faCalendarAlt} className="mr-2" />
-                        12.3.2022
+                        {process.env.WEDDING_DATE}
                     </h3>
                 </div>
             </div>
