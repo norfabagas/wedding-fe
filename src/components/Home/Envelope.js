@@ -11,7 +11,7 @@ export default function Envelope() {
 
                     <Button 
                         href="/main"
-                        text="Buka Undangan"
+                        text={process.env.OPEN_INVITATION_MSG}
                         iconDefault={faEnvelope}
                         iconHovered={faEnvelopeOpen} />
 
